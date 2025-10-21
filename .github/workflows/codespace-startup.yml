@@ -1,0 +1,13 @@
+name: Codespace Setup
+
+on:
+  workflow_dispatch:
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Info
+        run: |
+          echo "This workflow can be used for automated Codespace setup"
+          echo "Dependencies are installed automatically via devcontainer.json"

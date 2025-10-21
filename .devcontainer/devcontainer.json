@@ -1,0 +1,27 @@
+{
+  "name": "Discord Bot Python",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
+        "python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+        "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
+      }
+    }
+  },
+
+  "postCreateCommand": "pip install -r requirements.txt",
+
+  "forwardPorts": [],
+
+  "features": {}
+}
