@@ -1,2 +1,11 @@
-discord.py>=2.3.2
-python-dotenv>=1.0.0
+# Discord Bot Framework
+discord.py==2.3.2
+
+# OpenAI API for AI text rephrasing
+openai==1.12.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Async HTTP client (for streaming responses)
+aiohttp==3.9.1
