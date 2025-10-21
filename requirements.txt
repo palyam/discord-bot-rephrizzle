@@ -2,10 +2,13 @@
 discord.py==2.3.2
 
 # OpenAI API for AI text rephrasing
-openai==1.12.0
+openai>=1.30.0
 
 # Environment variable management
 python-dotenv==1.0.0
 
 # Async HTTP client (for streaming responses)
 aiohttp==3.9.1
+
+# HTTP client (compatible with OpenAI)
+httpx>=0.27.0
